@@ -1,0 +1,29 @@
+body{
+  font-family: Verdana;
+  background-color:#D8CCCC;
+}
+#grueso{
+  text-decoration: overline;
+  font-weight: bolder;
+  color: #ff0000;
+  background-color:#EFAEAE;
+}
+h1{
+  color:rgb(34,139,34);
+}
+h2{
+  color:#008080;
+}
+p{
+ color:steelblue;
+}
+.yellow{
+  color:#8B8000;
+  text-decoration: line-through; 
+  background-color:#D0D457;
+}
+.black{
+  color:black;
+  text-decoration:underline;
+  background-color:#858678;
+}
