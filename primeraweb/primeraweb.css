@@ -90,7 +90,7 @@ img {
   margin-left: 15px;
 }
 
-/*movil*/
+/*movil pensado para 620px*/
 @media only screen and (max-width: 620px) {
   .parraf2 {
     display: none;
@@ -100,6 +100,6 @@ img {
   }
 }
 
-/*ordenador*/
+/*ordenador pensado para más de 620px*/
 @media only screen and (min-width: 620px) {
 }
