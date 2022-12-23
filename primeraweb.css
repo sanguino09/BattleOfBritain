@@ -1,0 +1,105 @@
+body {
+  background-image: url("img/fondo.jpg");
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 25%;
+}
+h1 {
+  background-color: #40e0d0;
+  border-radius: 20px;
+  height: 40px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  padding: 10px;
+  font-family: verdana;
+}
+nav {
+  width: 50% margin 0 auto;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.menu {
+  text-align: center;
+  background-color: #40e0d0;
+  border-radius: 5px;
+}
+
+div {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu2 {
+  border-radius: 10%;
+  padding: 20px;
+  background-color: #3fc5b8;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.fijo {
+  position: fixed;
+  right: 20px;
+}
+
+img {
+  width: 50%;
+}
+
+.parraf1 {
+  border: solid;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+/*movil pensado para 620px*/
+@media only screen and (max-width: 620px) {
+  .parraf2 {
+    display: none;
+  }
+  .menu2 {
+    width: 30px;
+  }
+}
+
+/*ordenador pensado para más de 620px*/
+@media only screen and (min-width: 620px) {
+}
